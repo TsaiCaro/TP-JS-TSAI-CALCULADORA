@@ -1,8 +1,4 @@
-
-
 let texto = document.getElementById("displayinput");
-
-
 
 function accion0() {
     texto.value += "0";
@@ -35,9 +31,12 @@ function accion9() {
     texto.value += "9";
 }
 
+function decimal() {
+    texto.value += ".";
+}
 
 function clear() {
-    texto.value += "0";
+    texto.value = "0";
 }
 console.log(texto);
 // let clear = document.getElementById("clear");
